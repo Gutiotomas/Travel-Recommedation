@@ -48,23 +48,43 @@ nav ul li a {
 main {
     margin: auto;   
     background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     padding: 2rem;
+    display: grid;
+    grid-template-columns:45% 45%;
 }
 
-#hero {
-    text-align: center;
-    color: #fff;
+#intro {
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#hero h1 {
+#intro h1 {
     font-size: 3rem;
+    margin-bottom: 1rem;
+    padding: auto;
+}
+#intro h3 {
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-#hero p {
+#intro p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+}
+
+#book-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 
 #search-input {
