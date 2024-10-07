@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 /* Main Section with Two Columns */
-main {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;  /* Two equal columns */
     gap: 2rem;  /* Space between columns */
@@ -206,3 +206,49 @@ footer {
     padding: 1rem 0;
     position: relative;
 }
+
+#about {
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    min-height: 100vh;  /* Ensures the main section fills the screen */
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+#info {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+#info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+
+#info h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+
+.team p{
+    font-size: 0.8rem;
+}
+
+#info p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* Single column for results */
+    gap: 2rem;  /* Space between result items */
+}
+
+.team img{
+    width:40%
+}
+
