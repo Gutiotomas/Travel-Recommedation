@@ -147,3 +147,7 @@ function displayTemples() {
 });
 
 btnSearch.addEventListener('click', displayDestinations);
+
+function thankyou(){
+    alert('Thank you for contacting us!')
+}
