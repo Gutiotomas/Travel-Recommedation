@@ -16,30 +16,31 @@
                 <li><a href="travel_recommendation.html">Home</a></li>
                 <li><a href="about_us.html">About Us</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
-                <li>
-                    <input type="text" id="search-input" placeholder="Where do you want to go?">
-                    <button id="search-button">Search</button>
-                    <button id="clear-button">Clear</button>              
-                </li>
             </ul>
         </nav>
     </header>
 
-    <main class="grid">
-        <section id="intro">
-            <h1>Welcome to Voyage Vista</h1>
-            <h3>Your gateway to unforgettable travel experiences.</h3>
-            <p>At Voyage Vista, we believe that every journey is an opportunity to see the world from a new perspective. 
-                Whether you’re seeking a serene escape to a hidden gem or an adventurous trek through uncharted territories, 
-                we provide personalized travel recommendations tailored to your passions and preferences.
-                Our expert team curates itineraries and destination guides to help you explore beyond the ordinary, 
-                ensuring that every voyage reveals new vistas and memories that last a lifetime. With us, your next adventure is 
-                just a few clicks away – discover new horizons with Voyage Vista!</p>
-            <button id="book-button">Book Now</button>
+    <main class="contact">
+        <section id="contact"">
+            <h1>CONTACT US</h1>
+            <h5>Get in touch</h5>
         </section>
-        <section id="result">
-            <div id="time"></div>            
-            <div id="destination"></div>
+        <section id="form">
+            <form id="contactForm">
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                </div>
+                <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="10 " required placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" id="submit"onclick="thankyou()">Submit</button>
+              </form>
         </section>
     </main>
 
